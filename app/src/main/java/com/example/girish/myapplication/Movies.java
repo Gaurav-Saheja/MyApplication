@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 import android.widget.TextView;
 
@@ -26,7 +27,7 @@ public class Movies extends Fragment {
         return mov;
     }
     public void button (View view) {
-        Button button = (Button) activity.findViewById(R.id.button);
+        ImageButton button = (ImageButton) activity.findViewById(R.id.button);
         //Toast.makeText(getApplicationContext(), "Button selected", Toast.LENGTH_LONG).show();
     }
 }
